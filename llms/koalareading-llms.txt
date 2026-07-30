@@ -1,0 +1,40 @@
+# 51Talk Koala (koalareading.com)
+
+> koalareading.com serves 51Talk考拉外教官网 — the marketing landing page for 51Talk's
+> "Koala" online English foreign-teacher tutoring product for Chinese K-12 learners.
+> The site is operated by 大生在线（深圳）文化传媒科技有限公司 (Dashengzaixian (Shenzhen)
+> Culture Media Technology Co., Ltd.), Shenzhen, ICP filing 粤ICP备2023085692号.
+> It is a consumer product with no public API, developer portal, or documentation.
+
+## Site
+
+- [51Talk Koala homepage](https://koalareading.com/): single-page marketing site (hero banner + footer).
+- Technical support contact published in the footer: lizhen01@51talk.com
+
+## APIs
+
+None. No public API, developer portal, API reference, OpenAPI/AsyncAPI/GraphQL
+description, SDK, or CLI was found for this domain.
+
+## Discovery
+
+- No `/.well-known/` documents (see `well-known/koalareading-well-known.yml`).
+- No `/llms.txt`, `/robots.txt`, or `/sitemap.xml`.
+
+## Artifacts in this profile
+
+- [Domain security probe](security/koalareading-domain-security.yml): TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [Well-known probe](well-known/koalareading-well-known.yml): recorded absence of discovery documents.
+
+## Notes
+
+This profile entered the API Evangelist network as a Qiming Venture Partners
+portfolio lead under the name "koalareading" (考拉阅读 / Koala Reading, a Chinese
+K-12 reading-comprehension edtech). The koalareading.com domain as observed on
+2026-07-19 serves 51Talk's Koala product rather than that original property; the
+relationship between the two has not been verified and is not asserted here.
+
+---
+generated: '2026-07-19'
+method: generated
+source: apis.yml + live fetch of https://koalareading.com/

@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://koalareading.com/.well-known/*
+host: https://koalareading.com
+notes: >-
+  No .well-known discovery documents are published. The host returns a hard 404
+  (openresty) for /.well-known/security.txt and /llms.txt, and a soft 404 for the
+  remaining paths — HTTP 200 with a nine-byte text/plain body of "Not Found".
+  Absence recorded as valid negative evidence; no WellKnown or SecurityTxt
+  pointer is wired because no document exists.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 200
+  soft_404: true
+  body: Not Found
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  soft_404: true
+  body: Not Found
+- path: /.well-known/api-catalog
+  status: 200
+  soft_404: true
+  body: Not Found
+- path: /.well-known/ai-plugin.json
+  status: 200
+  soft_404: true
+  body: Not Found
+- path: /llms.txt
+  status: 404
