@@ -1,19 +1,49 @@
 aid: koalareading
-name: koalareading
-description: koalareading is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: 51Talk Koala (koalareading.com)
+description: >-
+  koalareading.com serves 51Talk考拉外教官网, the marketing landing page for 51Talk's
+  "Koala" online English foreign-teacher tutoring product aimed at Chinese K-12
+  learners. The site is a single-page property (hero banner plus footer) operated
+  by 大生在线（深圳）文化传媒科技有限公司 of Shenzhen under ICP filing 粤ICP备2023085692号, with
+  lizhen01@51talk.com published as the technical support contact. The profile
+  entered the API Evangelist network as a Qiming Venture Partners portfolio lead
+  under the name "koalareading" (考拉阅读 / Koala Reading, a Chinese K-12
+  reading-comprehension edtech); the domain as observed on 2026-07-19 serves the
+  51Talk Koala product instead, and the relationship between the two is not
+  asserted here. As of this enrichment pass the company publishes no public API,
+  developer portal, documentation, SDK, CLI, or machine-readable discovery
+  surface, so this profile carries only probed evidence.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.51talkjr.com/apollo/images/24fd96ba499acfd1b9ef130f54ff2f75.png
 url: https://raw.githubusercontent.com/api-evangelist/koalareading/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: consumer-product-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- Online Education
+- EdTech
+- Language Learning
+- English Tutoring
+- Consumer
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,12 @@ maintainers:
 common:
 - type: Website
   url: https://koalareading.com
+- type: DomainSecurity
+  url: security/koalareading-domain-security.yml
+- type: LLMsTxt
+  url: llms/koalareading-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
