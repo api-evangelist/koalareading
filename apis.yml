@@ -13,6 +13,17 @@ description: >-
   asserted here. As of this enrichment pass the company publishes no public API,
   developer portal, documentation, SDK, CLI, or machine-readable discovery
   surface, so this profile carries only probed evidence.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
